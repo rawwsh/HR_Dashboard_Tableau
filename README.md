@@ -1,32 +1,31 @@
-:README.md:README.md
 # Human Resources Business Analytics
 
 ![Status: Complete](https://img.shields.io/badge/Status-Complete-green)
 
-This project contains a comprehensive business intelligence analysis of a company's Human Resources data. The analysis identifies critical trends in employee turnover, diagnoses departmental performance issues, and provides a data-driven overview of talent demographics. The goal is to provide actionable insights for strategic HR management, talent acquisition, and employee retention.
+This project contains a comprehensive **Business Intelligence (BI)** analysis of a company's Human Resources data. The analysis moves beyond simple headcount to diagnose critical organizational challenges, particularly in **talent volatility** and **retention**. The objective is to provide actionable, data-driven recommendations to the HR and Leadership teams for strategic workforce planning.
 
 ---
 
-### **Key Insights**
+## **Key Strategic Insights**
 
-* **High Labor Volatility:** The company is experiencing a period of significant turnover, with rising trends in both hiring and termination numbers. This indicates a potential "leaky bucket" problem where aggressive recruitment is being offset by high attrition.
-* **Operational Hotspots:** The **Operations** and **Sales** departments are facing the highest termination numbers. The disproportionately high attrition rate in Sales suggests a critical need to investigate management, compensation, and team structure within that department.
-* **Performance & Education Gaps:** The core workforce is heavily concentrated at the "Satisfactory" performance level. The analysis reveals that employees with a **Bachelor's degree** are most likely to be high-performers, highlighting a key talent segment to nurture and retain.
-* **Strategic Compensation & Retention:** The data reveals distinct salary and age clusters by role. High-value roles like **Software Developer** are compensated for experience, while crucial, high-turnover roles like **HR Coordinator** are in a lower salary bracket, which may contribute to attrition.
+The analysis reveals several high-impact areas requiring executive attention:
 
----
-
-### **Technical Stack**
-
-This project leverages a robust business intelligence workflow for data analysis and visualization.
-
-* **Excel:** Used for initial data preparation and source file management.
-* **Power BI:** The primary tool for data modeling, visualization, and building the interactive dashboards.
-* **DAX:** Employed to create custom measures and key performance indicators (KPIs) for in-depth analysis.
-* **SQL:** Used for data extraction and querying (assumed as a best practice).
-* **Tableau:** Utilized for advanced data visualization and creating a dynamic, interactive dashboard.
-* **GitHub:** Serves as a central hub for project documentation and version control.
+* **Critical Labor Volatility:** The recent sharp, simultaneous increase in both **Hired** and **Terminated** employees suggests a **"Leaky Bucket"** problem. This high churn significantly drives up recruitment and training costs while limiting long-term productivity gains.
+* **Sales Attrition Crisis:** While Operations has the highest absolute number of terminations, the **Sales department exhibits a disproportionately high attrition rate** relative to its size. This points to potential systemic issues in compensation, management, or quota setting that require immediate root-cause analysis.
+* **Performance Bottleneck:** The majority of the workforce is concentrated at the **"Satisfactory" (50%)** performance level. The most valuable talent segment—high performers—is strongly correlated with the **Bachelor's degree** demographic, highlighting a key talent pipeline that must be proactively retained.
+* **Strategic Compensation Risk:** Roles critical to the business (e.g., Marketing/Customer Service Manager) fall into a high-salary, mid-age cluster, making them susceptible to external poaching if internal career progression is not clearly defined.
 
 ---
 
-### **Repository Structure**
+## **Technical Stack & Methodology**
+
+This project leverages a focused and powerful analytical toolkit for end-to-end data insight.
+
+* **Excel:** Used for initial data preparation, cleaning, and transformation of the raw Human Resources Information System (HRIS) data.
+* **Tableau:** The primary tool used for the entire visualization and interactive dashboard creation. This was essential for clearly presenting complex relationships (e.g., Age vs. Salary scatter plot) to stakeholders.
+
+---
+
+## **Repository Structure**
+
+The project is organized into a clean and logical directory structure for easy navigation.
